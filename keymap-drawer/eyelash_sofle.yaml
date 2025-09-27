@@ -39,7 +39,7 @@ layers:
   - K
   - L
   - {t: Alt+Ctl+;, s: 'Alt+Ctl+:'}
-  - {t: '''', s: '"'}
+  - '~'
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
@@ -51,7 +51,7 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: /, s: '?'}
+  - {t: ;, s: ':'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
   - LEFT WIN
