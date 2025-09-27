@@ -38,7 +38,7 @@ layers:
   - J
   - K
   - L
-  - {t: Alt+Ctl+;, s: 'Alt+Ctl+:'}
+  - {t: 'AltGr+,', s: AltGr+<}
   - '~'
   - $$mdi:apple-keyboard-control$$
   - Z
