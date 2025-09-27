@@ -109,7 +109,7 @@ layers:
   - RGB OFF
   - RGB ON
   - RGB EFF
-  - RGB EFR
+  - RGB EFF
   - RGB SPI
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
