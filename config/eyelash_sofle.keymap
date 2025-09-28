@@ -66,11 +66,11 @@
 
         layer_2 {
             bindings = <
-&kp GRAVE  &none       &none             &none              &none      &none        &none  &none           &none           &none            &none      &none        &none
-&none      &none       &kp QMARK         &none              &none      &none        &none  &none           &kp UP_ARROW    &none            &none      &none        &none
-&none      &none       &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp MINUS  &kp EQUAL    &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none      &none        &none
-&none      &sys_reset  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none      &none        &none  &none           &none           &sys_reset       &soft_off  &bootloader  &none
-&none      &none       &none             &none              &none      &none        &none  &none           &none           &none            &none      &none
+&kp GRAVE  &none       &none             &none              &none      &none        &none  &none           &none           &none             &none      &none        &none
+&none      &none       &kp QMARK         &none              &none      &none        &none  &none           &kp UP_ARROW    &none             &none      &none        &none
+&none      &none       &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp MINUS  &kp EQUAL    &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW   &none      &none        &none
+&none      &sys_reset  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none      &none        &none  &kp CARET       &kp TILDE       &kp SINGLE_QUOTE  &soft_off  &bootloader  &none
+&none      &none       &none             &none              &none      &none        &none  &none           &none           &none             &none      &none
             >;
 
             display-name = "System";
