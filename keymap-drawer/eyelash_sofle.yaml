@@ -26,7 +26,7 @@ layers:
   - I
   - O
   - P
-  - '"'
+  - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - A
   - S
@@ -177,9 +177,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - ^
-  - '~'
-  - {t: '''', s: '"'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&soft_off'
   - $$mdi:progress-download$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
