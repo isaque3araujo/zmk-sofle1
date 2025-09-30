@@ -63,7 +63,7 @@ layers:
   - $$mdi:keyboard-space$$
   - System
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-caps$$
   NumFn:
   - F1
