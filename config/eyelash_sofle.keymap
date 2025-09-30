@@ -54,11 +54,11 @@
 
         layer_1 {
             bindings = <
-&kp F1      &kp F2           &kp F3                             &kp F4           &kp F5           &kp F6    &none   &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
-&none       &trans           &trans                             &none            &none            &none     &none   &trans  &none   &none   &none    &none    &none
-&trans      &trans           &trans                             &trans           &trans           &none     &none   &trans  &none   &none   &none    &trans   &kp CARET
-&trans      &none            &none                              &rgb_ug RGB_SAI  &rgb_ug RGB_SPI  &none     &none   &none   &none   &none   &none    &trans   &trans
-&kp C_MUTE  &rgb_ug RGB_TOG  &rgb_ug RGB_COLOR_HSB(309,100,17)  &rgb_ug RGB_EFF  &trans           &trans    &trans  &trans  &trans  &none   &none    &none
+&kp F1      &kp F2           &kp F3                             &kp F4           &kp F5           &kp F6             &none   &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
+&none       &trans           &trans                             &none            &none            &none              &none   &trans  &none   &none   &none    &none    &none
+&trans      &trans           &trans                             &trans           &trans           &none              &none   &trans  &none   &none   &none    &trans   &kp CARET
+&trans      &none            &none                              &rgb_ug RGB_SAI  &rgb_ug RGB_SPI  &rgb_ug RGB_SAD    &none   &none   &none   &none   &none    &trans   &trans
+&kp C_MUTE  &rgb_ug RGB_TOG  &rgb_ug RGB_COLOR_HSB(309,100,17)  &rgb_ug RGB_EFF  &trans           &trans             &trans  &trans  &trans  &none   &none    &none
             >;
 
             display-name = "NumFn";
@@ -67,7 +67,7 @@
         layer_2 {
             bindings = <
 &kp GRAVE  &none       &none             &none              &none                 &none        &none  &none           &none           &none            &none      &none        &none
-&none      &none       &kp QMARK         &kp LS(SLASH)      &kp NON_US_BACKSLASH  &none        &none  &none           &kp UP_ARROW    &none            &none      &none        &none
+&none      &none       &kp QMARK         &kp SLASH          &kp NON_US_BACKSLASH  &none        &none  &none           &kp UP_ARROW    &none            &none      &none        &none
 &none      &none       &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp MINUS             &kp EQUAL    &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none      &none        &none
 &none      &sys_reset  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none                 &none        &none  &none           &none           &none            &soft_off  &bootloader  &none
 &none      &none       &none             &none              &none                 &none        &none  &none           &none           &none            &none      &none
