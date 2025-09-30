@@ -41,11 +41,11 @@
 
         layer0 {
             bindings = <
-&kp ESC           &kp N1        &kp N2        &kp N3  &kp N4  &kp N5       &none  &kp N6     &kp N7  &kp N8     &kp N9   &kp N0         &kp BACKSPACE
-&kp TAB           &kp Q         &kp W         &kp E   &kp R   &kp T        &none  &kp Y      &kp U   &kp I      &kp O    &kp P          &kp SINGLE_QUOTE
-&kp LEFT_SHIFT    &kp A         &kp S         &kp D   &kp F   &kp G        &none  &kp H      &kp J   &kp K      &kp L    &kp RA(COMMA)  &kp TILDE
-&kp LEFT_CONTROL  &kp Z         &kp X         &kp C   &kp V   &kp B        &none  &kp N      &kp M   &kp COMMA  &kp DOT  &kp SEMICOLON  &kp ENTER
-&kp C_MUTE        &kp LEFT_ALT  &kp LEFT_WIN  &none   &mo 1   &kp SPACE    &none  &kp SPACE  &mo 2   &none      &none    &none
+&kp ESC           &kp N1  &kp N2        &kp N3        &kp N4  &kp N5       &none  &kp N6     &kp N7  &kp N8     &kp N9   &kp N0         &kp BACKSPACE
+&kp TAB           &kp Q   &kp W         &kp E         &kp R   &kp T        &none  &kp Y      &kp U   &kp I      &kp O    &kp P          &kp SINGLE_QUOTE
+&kp LEFT_SHIFT    &kp A   &kp S         &kp D         &kp F   &kp G        &none  &kp H      &kp J   &kp K      &kp L    &kp RA(COMMA)  &kp TILDE
+&kp LEFT_CONTROL  &kp Z   &kp X         &kp C         &kp V   &kp B        &none  &kp N      &kp M   &kp COMMA  &kp DOT  &kp SEMICOLON  &kp ENTER
+&kp C_MUTE        &none   &kp LEFT_ALT  &kp LEFT_WIN  &mo 1   &kp SPACE    &none  &kp SPACE  &mo 2   &none      &none    &kp CAPSLOCK
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -54,11 +54,11 @@
 
         layer_1 {
             bindings = <
-&kp F1        &kp F2           &kp F3           &kp F4           &kp F5           &kp F6             &none   &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
-&kp CAPSLOCK  &trans           &trans           &none            &none            &none              &none   &trans  &none   &none   &none    &none    &none
-&trans        &trans           &trans           &trans           &trans           &none              &none   &trans  &none   &none   &none    &trans   &trans
-&trans        &rgb_ug RGB_OFF  &rgb_ug RGB_ON   &rgb_ug RGB_EFF  &rgb_ug RGB_EFF  &rgb_ug RGB_SPI    &none   &none   &none   &none   &none    &trans   &trans
-&kp C_MUTE    &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &trans           &trans           &trans             &trans  &trans  &trans  &none   &none    &none
+&kp F1      &kp F2           &kp F3                             &kp F4           &kp F5           &kp F6    &none   &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
+&none       &trans           &trans                             &none            &none            &none     &none   &trans  &none   &none   &none    &none    &none
+&trans      &trans           &trans                             &trans           &trans           &none     &none   &trans  &none   &none   &none    &trans   &kp CARET
+&trans      &none            &none                              &rgb_ug RGB_SAI  &rgb_ug RGB_SPI  &none     &none   &none   &none   &none   &none    &trans   &trans
+&kp C_MUTE  &rgb_ug RGB_TOG  &rgb_ug RGB_COLOR_HSB(309,100,17)  &rgb_ug RGB_EFF  &trans           &trans    &trans  &trans  &trans  &none   &none    &none
             >;
 
             display-name = "NumFn";
@@ -66,11 +66,11 @@
 
         layer_2 {
             bindings = <
-&kp GRAVE  &none       &none             &none              &none      &none        &none  &none           &none           &none            &none      &none        &none
-&none      &none       &kp QMARK         &none              &none      &none        &none  &none           &kp UP_ARROW    &none            &none      &none        &none
-&none      &none       &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp MINUS  &kp EQUAL    &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none      &none        &none
-&none      &sys_reset  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none      &none        &none  &none           &none           &none            &soft_off  &bootloader  &none
-&none      &none       &none             &none              &none      &none        &none  &none           &none           &none            &none      &none
+&kp GRAVE  &none       &none             &none              &none                 &none        &none  &none           &none           &none            &none      &none        &none
+&none      &none       &kp QMARK         &kp LS(SLASH)      &kp NON_US_BACKSLASH  &none        &none  &none           &kp UP_ARROW    &none            &none      &none        &none
+&none      &none       &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp MINUS             &kp EQUAL    &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none      &none        &none
+&none      &sys_reset  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none                 &none        &none  &none           &none           &none            &soft_off  &bootloader  &none
+&none      &none       &none             &none              &none                 &none        &none  &none           &none           &none            &none      &none
             >;
 
             display-name = "System";
